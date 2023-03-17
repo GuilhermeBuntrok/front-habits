@@ -29,7 +29,7 @@ export function NewHabitForm() {
       return
     }
 
-    api.post('habits', {
+    api.post('/habits', {
       title,
       weekDays,
     })
